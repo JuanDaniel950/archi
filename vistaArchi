@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="IDEAM - Vistas AS-IS Dominio ASI" version="5.2.0">
+  <documentation>Contrato 511 de 2026. Elaborado: 14/10/2026.</documentation>
+  <folder name="Sistemas de Información" type="application">
+    <element name="SIS-001 PCB" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + JBOSS 6 + JDK 1.8"/>
+      <property key="Intervención" value="Fortalecer"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-002 RUA" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + Apache Tomcat"/>
+      <property key="Intervención" value="Mantener/Fortalecer"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-003 SNIF" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + JBOSS 6 + JDK 1.8"/>
+      <property key="Intervención" value="Fortalecer"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-004 IFN" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="MEDIA"/>
+      <property key="Stack" value="MariaDB + Tomcat + Java"/>
+      <property key="Intervención" value="Mantener"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-005 SIRH" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + JBOSS 6.4 + JDK 1.8"/>
+      <property key="Intervención" value="Reemplazar/Migrar"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-006 DHIME" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="C#.NET + Java + SaaS + Oracle 12g + PostgreSQL 17"/>
+      <property key="Intervención" value="Fortalecer/Actualizar"/>
+      <property key="TIME" value="Invest"/>
+      <property key="Funcionalidades" value="38"/>
+    </element>
+    <element name="SIS-007 POLARIS" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="MEDIA"/>
+      <property key="Stack" value="PostgreSQL 15 + Apache + PHP/Python"/>
+      <property key="Intervención" value="Mantener"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-008 FEWS" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="MEDIA"/>
+      <property key="Stack" value="Oracle 19C + Tomcat + Java"/>
+      <property key="Intervención" value="Mantener"/>
+      <property key="TIME" value="Invest"/>
+    </element>
+    <element name="SIS-009 MAI" type="ApplicationComponent">
+      <property key="Categoría" value="Apoyo"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="SaaS SYSMAN"/>
+      <property key="Intervención" value="Mantener"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-010 ORFEO" type="ApplicationComponent">
+      <property key="Categoría" value="Apoyo"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="MEDIA"/>
+      <property key="Stack" value="PostgreSQL 15 + Apache + PHP 7.4"/>
+      <property key="Intervención" value="Mejorar"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-011 SIGEP" type="ApplicationComponent">
+      <property key="Categoría" value="Apoyo"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="SaaS Heinsohn"/>
+      <property key="Intervención" value="Mantener"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-012 SMARTMET" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="MEDIA"/>
+      <property key="Stack" value="PostgreSQL + PostGIS + Tomcat + Python/C++"/>
+      <property key="Intervención" value="Mantener/Actualizar"/>
+      <property key="TIME" value="Invest"/>
+    </element>
+    <element name="SIS-013 SUITEVISION" type="ApplicationComponent">
+      <property key="Categoría" value="Apoyo"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + Tomcat 9 + JDK 1.8"/>
+      <property key="Intervención" value="Mantener"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-014 ADMINGEO" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + JBOSS 7 + JDK 1.8"/>
+      <property key="Intervención" value="Reemplazar"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-015 SISAIRE" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="CRÍTICA"/>
+      <property key="Stack" value="Oracle 11g + JBOSS 7 + JDK 1.8"/>
+      <property key="Intervención" value="Fortalecer"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-016 SIIVRA" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="PostgreSQL + OpenShift + PHP/Drupal"/>
+      <property key="Intervención" value="Fortalecer"/>
+      <property key="TIME" value="Migrate"/>
+    </element>
+    <element name="SIS-017 VIDHAG" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="PostgreSQL + OpenShift + Angular"/>
+      <property key="Intervención" value="Mantener/Actualizar"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-018 SMBYC" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="MEDIA"/>
+      <property key="Intervención" value="N/A"/>
+      <property key="TIME" value="Tolerate"/>
+    </element>
+    <element name="SIS-019 SIIF Nación" type="ApplicationComponent">
+      <property key="Categoría" value="Externo"/>
+      <property key="MinHacienda" value=""/>
+      <property key="Intervención" value="N/A"/>
+    </element>
+    <element name="SIS-020 SIGEP II" type="ApplicationComponent">
+      <property key="Categoría" value="Externo"/>
+      <property key="CNSC / Función Pública" value=""/>
+      <property key="Intervención" value="N/A"/>
+    </element>
+    <element name="SIS-021 EDL-APP" type="ApplicationComponent">
+      <property key="Categoría" value="Externo"/>
+      <property key="CNSC" value=""/>
+      <property key="Intervención" value="N/A"/>
+    </element>
+    <element name="SIS-022 SINGEI" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Producción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="MariaDB + OpenShift + PHP/Angular + Keycloak + Power BI"/>
+      <property key="Intervención" value="Desarrollo/Construcción"/>
+      <property key="TIME" value="Invest"/>
+    </element>
+    <element name="SIS-023 ICAU" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Construcción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="PostgreSQL + Node.js + NestJS + Keycloak + Power BI"/>
+      <property key="Intervención" value="N/A"/>
+      <property key="TIME" value="Invest"/>
+    </element>
+    <element name="SIS-024 RNZD" type="ApplicationComponent">
+      <property key="Categoría" value="Misional"/>
+      <property key="Estado" value="Construcción"/>
+      <property key="Deuda" value="BAJA"/>
+      <property key="Stack" value="PostgreSQL + OpenShift + Python/React + X-Road"/>
+      <property key="Intervención" value="Mantener/Actualizar"/>
+      <property key="TIME" value="Invest"/>
+    </element>
+    <element name="SIS-006.1 Módulo Personalizado (Global MVM)" type="ApplicationComponent">
+      <property key="Stack" value="C#.NET + IIS + Oracle 12g"/>
+      <property key="Soporte" value="Vigente Dic 2026"/>
+      <property key="Riesgo" value="MEDIO"/>
+    </element>
+    <element name="SIS-006.2 AQUARIUS-TS (Aquatics)" type="ApplicationComponent">
+      <property key="Stack" value="PostgreSQL 17"/>
+      <property key="Soporte" value="VENCIDO Ago 2026"/>
+      <property key="Riesgo" value="CRÍTICO"/>
+    </element>
+    <element name="SIS-006.3 DHIME-UTILS (IDEAM)" type="ApplicationComponent">
+      <property key="Stack" value="Java + Angular + Tomcat 9 + Oracle 12g"/>
+      <property key="Soporte" value="Vigente Dic 2026"/>
+      <property key="Riesgo" value="MEDIO"/>
+    </element>
+    <element name="SIS-006.4 AQUARIUS-WEBPORTAL (Aquatics)" type="ApplicationComponent">
+      <property key="Stack" value="PostgreSQL 17"/>
+      <property key="Soporte" value="VENCIDO Ago 2026"/>
+      <property key="Riesgo" value="CRÍTICO"/>
+    </element>
+    <element name="SIS-006.5 AQUARIUS-SAMPLES (Aquatics SaaS)" type="ApplicationComponent">
+      <property key="Stack" value="SaaS"/>
+      <property key="Soporte" value="Vigente May 2027"/>
+      <property key="Riesgo" value="BAJO"/>
+    </element>
+    <element name="Gestionar Usuarios/Roles/Permisos" type="ApplicationFunction">
+      <documentation>Funcionalidad transversal duplicada en 9 sistemas. Candidata a IAM centralizado (Keycloak).</documentation>
+    </element>
+    <element name="Generar Reportes/Sábanas" type="ApplicationFunction">
+      <documentation>Funcionalidad transversal duplicada en 9 sistemas. Candidata a capa de analítica centralizada (Power BI).</documentation>
+    </element>
+    <element name="Visualizar Info. Geográfica" type="ApplicationFunction">
+      <documentation>Funcionalidad transversal duplicada en 13 sistemas. Candidata a visor institucional unificado (ADMINGEO mejorado).</documentation>
+    </element>
+    <element name="Consultar Información" type="ApplicationFunction">
+      <documentation>Funcionalidad transversal duplicada en 12 sistemas. Candidata a APIs centralizadas.</documentation>
+    </element>
+    <element name="X-Road (Instalado, no documentado)" type="ApplicationComponent">
+      <documentation>ABB de GTI-G-001 - Z6 Interoperabilidad | Servidor de Seguridad | Estado AS-IS: Instalado pero subutilizado</documentation>
+    </element>
+    <element name="Bus FUSE (Instalado, no documentado)" type="ApplicationComponent">
+      <documentation>ABB de GTI-G-001 - Z6 Interoperabilidad | ESB | Estado AS-IS: Instalado pero subutilizado</documentation>
+    </element>
+    <element name="API Manager (Instalado, no documentado)" type="ApplicationComponent">
+      <documentation>ABB de GTI-G-001 - Z6 Interoperabilidad | API Gateway | Estado AS-IS: Instalado pero subutilizado</documentation>
+    </element>
+    <element name="Keycloak 21.1 (Solo en SIS-022, SIS-023, App PQRSDF)" type="ApplicationComponent">
+      <documentation>ABB de GTI-G-001 - Z2 Seguridad | IAM Corporativo | Estado AS-IS: Solo 3 aplicaciones lo usan</documentation>
+    </element>
+  </folder>
+  <folder name="Agrupaciones" type="other">
+    <element name="PRODUCCIÓN (21 SI)" type="Grouping">
+      <documentation>Estado de ciclo de vida: Producción - Sistemas disponibles para operación institucional</documentation>
+    </element>
+    <element name="CONSTRUCCIÓN (2 SI)" type="Grouping">
+      <documentation>Estado de ciclo de vida: Construcción - SIS-023 ICAU, SIS-024 RNZD</documentation>
+    </element>
+    <element name="EXTERNOS (3 SI)" type="Grouping">
+      <documentation>Sistemas de terceros: SIS-019 SIIF, SIS-020 SIGEP II, SIS-021 EDL-APP</documentation>
+    </element>
+    <element name="DEUDA TECNOLÓGICA CRÍTICA (7 SI)" type="Grouping">
+      <documentation>Oracle 11g + JBOSS 6 + JDK 1.8 fuera de soporte: SIS-001, SIS-002, SIS-003, SIS-005, SIS-013, SIS-014, SIS-015</documentation>
+    </element>
+    <element name="REFERENTES TO-BE (4 SI + 1 App)" type="Grouping">
+      <documentation>Aplicaciones modernas alineadas con GTI-G-001: SIS-022, SIS-023, SIS-024, App PQRSDF</documentation>
+    </element>
+    <element name="MISIONALES (18 SI)" type="Grouping">
+      <documentation>Sistemas que soportan procesos PMI-001 a PMI-004</documentation>
+    </element>
+    <element name="DE APOYO (4 SI)" type="Grouping">
+      <documentation>Sistemas que soportan procesos PAP-001 a PAP-005</documentation>
+    </element>
+    <element name="TIME: INVEST (6 SI)" type="Grouping">
+      <documentation>Invertir - Sistemas críticos misionales con alto valor estratégico: SIS-006, SIS-008, SIS-012, SIS-022, SIS-023, SIS-024</documentation>
+    </element>
+    <element name="TIME: TOLERATE (8 SI)" type="Grouping">
+      <documentation>Tolerar - Sistemas funcionales sin necesidad inmediata de cambio</documentation>
+    </element>
+    <element name="TIME: MIGRATE (7 SI)" type="Grouping">
+      <documentation>Migrar - Deuda tecnológica crítica (Oracle 11g, JBOSS 6, JDK 1.8)</documentation>
+    </element>
+    <element name="SIS-006 DHIME (Macro-Sistema)" type="Grouping">
+      <documentation>Macro-sistema con 5 subsistemas heterogéneos</documentation>
+    </element>
+  </folder>
+  <folder name="Relaciones" type="other">
+    <relationship type="Assignment" source="SIS-001 PCB" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-002 RUA" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-003 SNIF" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-004 IFN" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-005 SIRH" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-006 DHIME" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-007 POLARIS" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-008 FEWS" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-009 MAI" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-010 ORFEO" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-011 SIGEP" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-012 SMARTMET" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-013 SUITEVISION" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-014 ADMINGEO" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-015 SISAIRE" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-016 SIIVRA" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-017 VIDHAG" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-018 SMBYC" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-022 SINGEI" target="PRODUCCIÓN (21 SI)"/>
+    <relationship type="Assignment" source="SIS-023 ICAU" target="CONSTRUCCIÓN (2 SI)"/>
+    <relationship type="Assignment" source="SIS-024 RNZD" target="CONSTRUCCIÓN (2 SI)"/>
+    <relationship type="Assignment" source="SIS-019 SIIF Nación" target="EXTERNOS (3 SI)"/>
+    <relationship type="Assignment" source="SIS-020 SIGEP II" target="EXTERNOS (3 SI)"/>
+    <relationship type="Assignment" source="SIS-021 EDL-APP" target="EXTERNOS (3 SI)"/>
+    <relationship type="Assignment" source="SIS-001 PCB" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-002 RUA" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-003 SNIF" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-005 SIRH" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-013 SUITEVISION" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-014 ADMINGEO" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-015 SISAIRE" target="DEUDA TECNOLÓGICA CRÍTICA (7 SI)"/>
+    <relationship type="Assignment" source="SIS-022 SINGEI" target="REFERENTES TO-BE (4 SI + 1 App)"/>
+    <relationship type="Assignment" source="SIS-023 ICAU" target="REFERENTES TO-BE (4 SI + 1 App)"/>
+    <relationship type="Assignment" source="SIS-024 RNZD" target="REFERENTES TO-BE (4 SI + 1 App)"/>
+    <relationship type="Assignment" source="SIS-001 PCB" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-002 RUA" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-003 SNIF" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-004 IFN" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-005 SIRH" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-006 DHIME" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-007 POLARIS" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-008 FEWS" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-012 SMARTMET" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-014 ADMINGEO" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-015 SISAIRE" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-016 SIIVRA" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-017 VIDHAG" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-018 SMBYC" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-022 SINGEI" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-023 ICAU" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-024 RNZD" target="MISIONALES (18 SI)"/>
+    <relationship type="Assignment" source="SIS-009 MAI" target="DE APOYO (4 SI)"/>
+    <relationship type="Assignment" source="SIS-010 ORFEO" target="DE APOYO (4 SI)"/>
+    <relationship type="Assignment" source="SIS-011 SIGEP" target="DE APOYO (4 SI)"/>
+    <relationship type="Assignment" source="SIS-013 SUITEVISION" target="DE APOYO (4 SI)"/>
+    <relationship type="Assignment" source="SIS-006 DHIME" target="TIME: INVEST (6 SI)"/>
+    <relationship type="Assignment" source="SIS-008 FEWS" target="TIME: INVEST (6 SI)"/>
+    <relationship type="Assignment" source="SIS-012 SMARTMET" target="TIME: INVEST (6 SI)"/>
+    <relationship type="Assignment" source="SIS-022 SINGEI" target="TIME: INVEST (6 SI)"/>
+    <relationship type="Assignment" source="SIS-023 ICAU" target="TIME: INVEST (6 SI)"/>
+    <relationship type="Assignment" source="SIS-024 RNZD" target="TIME: INVEST (6 SI)"/>
+    <relationship type="Assignment" source="SIS-001 PCB" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-002 RUA" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-003 SNIF" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-005 SIRH" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-013 SUITEVISION" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-014 ADMINGEO" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-015 SISAIRE" target="TIME: MIGRATE (7 SI)"/>
+    <relationship type="Assignment" source="SIS-004 IFN" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Assignment" source="SIS-007 POLARIS" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Assignment" source="SIS-009 MAI" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Assignment" source="SIS-010 ORFEO" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Assignment" source="SIS-011 SIGEP" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Assignment" source="SIS-017 VIDHAG" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Assignment" source="SIS-018 SMBYC" target="TIME: TOLERATE (8 SI)"/>
+    <relationship type="Aggregation" name="contiene" source="SIS-006 DHIME" target="SIS-006.1 Módulo Personalizado (Global MVM)"/>
+    <relationship type="Aggregation" name="contiene" source="SIS-006 DHIME" target="SIS-006.2 AQUARIUS-TS (Aquatics)"/>
+    <relationship type="Aggregation" name="contiene" source="SIS-006 DHIME" target="SIS-006.3 DHIME-UTILS (IDEAM)"/>
+    <relationship type="Aggregation" name="contiene" source="SIS-006 DHIME" target="SIS-006.4 AQUARIUS-WEBPORTAL (Aquatics)"/>
+    <relationship type="Aggregation" name="contiene" source="SIS-006 DHIME" target="SIS-006.5 AQUARIUS-SAMPLES (Aquatics SaaS)"/>
+    <relationship type="Flow" name="API REST" source="SIS-006 DHIME" target="SIS-001 PCB"/>
+    <relationship type="Flow" name="Por validar" source="SIS-007 POLARIS" target="SIS-006 DHIME"/>
+    <relationship type="Flow" name="Por validar" source="SIS-008 FEWS" target="SIS-005 SIRH"/>
+    <relationship type="Flow" name="Por validar" source="SIS-008 FEWS" target="SIS-006 DHIME"/>
+    <relationship type="Flow" name="Por validar" source="SIS-008 FEWS" target="SIS-012 SMARTMET"/>
+    <relationship type="Flow" name="API REST" source="SIS-009 MAI" target="SIS-006 DHIME"/>
+    <relationship type="Flow" name="API REST" source="SIS-010 ORFEO" target="SIS-006 DHIME"/>
+    <relationship type="Flow" name="No especificado" source="SIS-011 SIGEP" target="SIS-010 ORFEO"/>
+    <relationship type="Flow" name="Por validar" source="SIS-012 SMARTMET" target="SIS-007 POLARIS"/>
+    <relationship type="Flow" name="API REST" source="SIS-012 SMARTMET" target="SIS-017 VIDHAG"/>
+    <relationship type="Flow" name="Geoservicios" source="SIS-014 ADMINGEO" target="SIS-001 PCB"/>
+    <relationship type="Flow" name="Geoservicios" source="SIS-014 ADMINGEO" target="SIS-002 RUA"/>
+    <relationship type="Flow" name="Geoservicios" source="SIS-014 ADMINGEO" target="SIS-003 SNIF"/>
+    <relationship type="Flow" name="Geoservicios" source="SIS-014 ADMINGEO" target="SIS-015 SISAIRE"/>
+    <relationship type="Flow" name="WebService" source="SIS-015 SISAIRE" target="SIS-002 RUA"/>
+    <relationship type="Flow" name="Por validar" source="SIS-024 RNZD" target="SIS-018 SMBYC"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-001 PCB"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-002 RUA"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-004 IFN"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-005 SIRH"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-006 DHIME"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-010 ORFEO"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-022 SINGEI"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-023 ICAU"/>
+    <relationship type="Assignment" name="implementa" source="Gestionar Usuarios/Roles/Permisos" target="SIS-024 RNZD"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-001 PCB"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-002 RUA"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-005 SIRH"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-006 DHIME"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-008 FEWS"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-009 MAI"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-015 SISAIRE"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-022 SINGEI"/>
+    <relationship type="Assignment" name="implementa" source="Generar Reportes/Sábanas" target="SIS-024 RNZD"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-002 RUA"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-003 SNIF"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-005 SIRH"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-006 DHIME"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-007 POLARIS"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-008 FEWS"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-014 ADMINGEO"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-015 SISAIRE"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-016 SIIVRA"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-017 VIDHAG"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-023 ICAU"/>
+    <relationship type="Assignment" name="implementa" source="Visualizar Info. Geográfica" target="SIS-024 RNZD"/>
+  </folder>
+  <folder name="Vistas AS-IS" type="view">
+    <view name="V1 - Portafolio de Aplicaciones AS-IS (por Estado de Ciclo de Vida)" documentation="Vista que muestra los 24 SI agrupados por estado de ciclo de vida según el modelo definido en el anexo AS-IS. Permite visualizar la distribución del portafolio: 21 en Producción, 2 en Construcción, 3 Externos.">
+      <node type="Grouping" x="20" y="20" width="1400" height="340" name="PRODUCCIÓN (21 SI)">
+        <style fillColor="213,232,212" lineColor="130,179,102"/>
+      </node>
+      <node type="Grouping" x="20" y="380" width="400" height="180" name="CONSTRUCCIÓN (2 SI)">
+        <style fillColor="255,242,204" lineColor="214,182,86"/>
+      </node>
+      <node type="Grouping" x="440" y="380" width="400" height="180" name="EXTERNOS (3 SI)">
+        <style fillColor="218,232,252" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="60" width="160" height="60" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="220" y="60" width="160" height="60" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="400" y="60" width="160" height="60" name="SIS-003 SNIF">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="580" y="60" width="160" height="60" name="SIS-004 IFN">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="760" y="60" width="160" height="60" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="60" width="180" height="60" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="140" width="160" height="60" name="SIS-007 POLARIS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="220" y="140" width="160" height="60" name="SIS-008 FEWS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="400" y="140" width="160" height="60" name="SIS-009 MAI">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="580" y="140" width="160" height="60" name="SIS-010 ORFEO">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="760" y="140" width="160" height="60" name="SIS-011 SIGEP">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="140" width="180" height="60" name="SIS-012 SMARTMET">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="220" width="160" height="60" name="SIS-013 SUITEVISION">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="220" y="220" width="160" height="60" name="SIS-014 ADMINGEO">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="400" y="220" width="160" height="60" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="580" y="220" width="160" height="60" name="SIS-016 SIIVRA">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="760" y="220" width="160" height="60" name="SIS-017 VIDHAG">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="220" width="180" height="60" name="SIS-018 SMBYC">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="300" width="160" height="60" name="SIS-022 SINGEI">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="420" width="160" height="60" name="SIS-023 ICAU">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="220" y="420" width="160" height="60" name="SIS-024 RNZD">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="460" y="420" width="120" height="60" name="SIS-019 SIIF Nación">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="600" y="420" width="120" height="60" name="SIS-020 SIGEP II">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="740" y="420" width="120" height="60" name="SIS-021 EDL-APP">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="Note" x="1000" y="380" width="400" height="180">
+        <text>&lt;b&gt;LEYENDA DE COLORES&lt;/b&gt;&#13;&#10;&#13;&#10;🔴 Rojo: Deuda Tecnológica Crítica (7 SI)&#13;&#10;🟠 Amarillo: Riesgo Medio / Soporte próximo&#13;&#10;🟢 Verde: Moderno / Referente TO-BE&#13;&#10;🔵 Azul: Sistemas de Apoyo / Externos&#13;&#10;🟣 Morado: Macro-Sistema (SIS-006)&#13;&#10;&#13;&#10;&lt;b&gt;Distribución:&lt;/b&gt;&#13;&#10;• Producción: 21 SI (88%)&#13;&#10;• Construcción: 2 SI (8%)&#13;&#10;• Externos: 3 SI (12%)</text>
+        <style fillColor="255,255,255" lineColor="0,0,0"/>
+      </node>
+      <connection type="Assignment" start="n-sis001" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis002" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis003" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis004" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis005" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis006" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis007" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis008" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis009" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis010" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis011" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis012" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis013" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis014" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis015" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis016" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis017" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis018" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis022" end="n-grp-prod"/>
+      <connection type="Assignment" start="n-sis023" end="n-grp-constr"/>
+      <connection type="Assignment" start="n-sis024" end="n-grp-constr"/>
+      <connection type="Assignment" start="n-sis019" end="n-grp-externo"/>
+      <connection type="Assignment" start="n-sis020" end="n-grp-externo"/>
+      <connection type="Assignment" start="n-sis021" end="n-grp-externo"/>
+    </view>
+    <view name="V2 - Mapa de Interoperabilidad AS-IS (Integraciones Documentadas)" documentation="Vista que muestra las integraciones documentadas entre sistemas. Hallazgo crítico: solo 17 de 576 relaciones potenciales están documentadas (3%). Los ABBs de interoperabilidad de GTI-G-001 (X-Road, Bus FUSE, API Manager) están instalados pero subutilizados.">
+      <node type="ApplicationComponent" x="480" y="240" width="240" height="100" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="60" y="60" width="160" height="60" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="280" y="60" width="160" height="60" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="500" y="60" width="160" height="60" name="SIS-003 SNIF">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="720" y="60" width="160" height="60" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="60" width="160" height="60" name="SIS-007 POLARIS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="60" y="180" width="160" height="60" name="SIS-008 FEWS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="60" y="380" width="160" height="60" name="SIS-009 MAI">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="280" y="380" width="160" height="60" name="SIS-010 ORFEO">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="500" y="400" width="160" height="60" name="SIS-011 SIGEP">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="180" width="160" height="60" name="SIS-012 SMARTMET">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="720" y="380" width="160" height="60" name="SIS-014 ADMINGEO">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="380" width="160" height="60" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="280" width="160" height="60" name="SIS-017 VIDHAG">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="720" y="480" width="160" height="60" name="SIS-018 SMBYC">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="60" y="500" width="180" height="70" name="X-Road (Instalado, no documentado)">
+        <style fillColor="255,255,255" lineColor="0,0,0" dashed="true"/>
+      </node>
+      <node type="ApplicationComponent" x="260" y="500" width="180" height="70" name="Bus FUSE (Instalado, no documentado)">
+        <style fillColor="255,255,255" lineColor="0,0,0" dashed="true"/>
+      </node>
+      <node type="ApplicationComponent" x="60" y="590" width="180" height="70" name="API Manager (Instalado, no documentado)">
+        <style fillColor="255,255,255" lineColor="0,0,0" dashed="true"/>
+      </node>
+      <node type="ApplicationComponent" x="260" y="590" width="200" height="70" name="Keycloak 21.1 (Solo en SIS-022, SIS-023, App PQRSDF)">
+        <style fillColor="255,255,255" lineColor="0,0,0" dashed="true"/>
+      </node>
+      <node type="Note" x="720" y="560" width="400" height="120">
+        <text>&lt;b&gt;HALLAZGO CRÍTICO DE BRECHA&lt;/b&gt;&#13;&#10;&#13;&#10;Solo &lt;b&gt;17 de 576&lt;/b&gt; relaciones potenciales de integración están documentadas (3%).&#13;&#10;&#13;&#10;&lt;b&gt;Leyenda de líneas:&lt;/b&gt;&#13;&#10;🔵 Azul: API REST documentada&#13;&#10;🟠 Naranja: Por validar&#13;&#10;🟢 Verde: Geoservicios</text>
+        <style fillColor="255,242,204" lineColor="214,182,86"/>
+      </node>
+      <connection type="Flow" start="n2-sis006" end="n2-sis001"/>
+      <connection type="Flow" start="n2-sis007" end="n2-sis006"/>
+      <connection type="Flow" start="n2-sis008" end="n2-sis005"/>
+      <connection type="Flow" start="n2-sis008" end="n2-sis006"/>
+      <connection type="Flow" start="n2-sis008" end="n2-sis012"/>
+      <connection type="Flow" start="n2-sis009" end="n2-sis006"/>
+      <connection type="Flow" start="n2-sis010" end="n2-sis006"/>
+      <connection type="Flow" start="n2-sis011" end="n2-sis010"/>
+      <connection type="Flow" start="n2-sis012" end="n2-sis007"/>
+      <connection type="Flow" start="n2-sis012" end="n2-sis017"/>
+      <connection type="Flow" start="n2-sis014" end="n2-sis001"/>
+      <connection type="Flow" start="n2-sis014" end="n2-sis002"/>
+      <connection type="Flow" start="n2-sis014" end="n2-sis003"/>
+      <connection type="Flow" start="n2-sis014" end="n2-sis015"/>
+      <connection type="Flow" start="n2-sis015" end="n2-sis002"/>
+      <connection type="Flow" start="n2-sis018" end="n2-sis018"/>
+    </view>
+    <view name="V3 - Desglose del Macro-Sistema SIS-006 (DHIME)" documentation="Vista que muestra el desglose del macro-sistema SIS-006 DHIME en sus 5 subsistemas heterogéneos. Este sistema es el punto único de fallo más crítico del IDEAM: 38 funcionalidades (19% del portafolio), 2 subsistemas con soporte VENCIDO (Ago 2026), y mezcla de tecnologías (C#.NET, Java, SaaS).">
+      <node type="Grouping" x="20" y="20" width="1100" height="500" name="SIS-006 DHIME (Macro-Sistema)">
+        <style fillColor="225,213,231" lineColor="150,115,166"/>
+      </node>
+      <node type="Note" x="40" y="40" width="1060" height="80">
+        <text>&lt;b&gt;SIS-006 DHIME - MACRO-SISTEMA CRÍTICO&lt;/b&gt;&#13;&#10;• 38 funcionalidades (19.2% del portafolio institucional)&#13;&#10;• Soporta procesos misionales críticos: PMI-001, PMI-002, PMI-003, PMI-004&#13;&#10;• 5 subsistemas heterogéneos con tecnologías, proveedores y ciclos de vida distintos&#13;&#10;• &lt;b&gt;2 subsistemas con soporte VENCIDO desde Ago 2026&lt;/b&gt; 🔴</text>
+        <style fillColor="248,206,204" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="150" width="200" height="100" name="SIS-006.1 Módulo Personalizado (Global MVM)">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="260" y="150" width="200" height="100" name="SIS-006.2 AQUARIUS-TS (Aquatics)">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="480" y="150" width="200" height="100" name="SIS-006.3 DHIME-UTILS (IDEAM)">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="700" y="150" width="200" height="100" name="SIS-006.4 AQUARIUS-WEBPORTAL (Aquatics)">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="920" y="150" width="180" height="100" name="SIS-006.5 AQUARIUS-SAMPLES (Aquatics SaaS)">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="Note" x="40" y="280" width="1060" height="220">
+        <text>&lt;b&gt;DETALLE DE SUBSISTEMAS&lt;/b&gt;&#13;&#10;&#13;&#10;🟡 &lt;b&gt;SIS-006.1 Módulo Personalizado&lt;/b&gt; (Global MVM): C#.NET + IIS + Oracle 12g | Soporte hasta Dic 2026&#13;&#10;🔴 &lt;b&gt;SIS-006.2 AQUARIUS-TS&lt;/b&gt; (Aquatics): PostgreSQL 17 | &lt;b&gt;SOPORTE VENCIDO Ago 2026&lt;/b&gt;&#13;&#10;🟡 &lt;b&gt;SIS-006.3 DHIME-UTILS&lt;/b&gt; (IDEAM): Java + Angular + Tomcat 9 + Oracle 12g | Soporte hasta Dic 2026&#13;&#10;🔴 &lt;b&gt;SIS-006.4 AQUARIUS-WEBPORTAL&lt;/b&gt; (Aquatics): PostgreSQL 17 | &lt;b&gt;SOPORTE VENCIDO Ago 2026&lt;/b&gt;&#13;&#10;🟢 &lt;b&gt;SIS-006.5 AQUARIUS-SAMPLES&lt;/b&gt; (Aquatics SaaS): SaaS | Soporte hasta May 2027&#13;&#10;&#13;&#10;&lt;b&gt;RECOMENDACIÓN TO-BE:&lt;/b&gt; Descomponer en microservicios desacoplados usando el Gestor de Contenedores (OpenShift) y ESB FUSE de GTI-G-001. Renegociar soporte con Aquatics o migrar a alternativas open source.</text>
+        <style fillColor="255,255,255" lineColor="0,0,0"/>
+      </node>
+      <connection type="Aggregation" start="n3-grp-sis006" end="n3-mod"/>
+      <connection type="Aggregation" start="n3-grp-sis006" end="n3-aqts"/>
+      <connection type="Aggregation" start="n3-grp-sis006" end="n3-utils"/>
+      <connection type="Aggregation" start="n3-grp-sis006" end="n3-webportal"/>
+      <connection type="Aggregation" start="n3-grp-sis006" end="n3-samples"/>
+    </view>
+    <view name="V4 - Heat Map de Deuda Tecnológica y Clasificación TIME" documentation="Vista que muestra el heat map de deuda tecnológica del portafolio AS-IS, junto con la clasificación TIME (Tolerate, Invest, Migrate, Eliminate). Permite priorizar las intervenciones TO-BE: 7 SI con deuda crítica (Migrate), 6 SI estratégicos (Invest), 8 SI funcionales (Tolerate).">
+      <node type="Grouping" x="20" y="20" width="1100" height="200" name="DEUDA TECNOLÓGICA CRÍTICA (7 SI)">
+        <style fillColor="248,206,204" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="60" width="140" height="60" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="200" y="60" width="140" height="60" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="360" y="60" width="140" height="60" name="SIS-003 SNIF">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="520" y="60" width="140" height="60" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="680" y="60" width="140" height="60" name="SIS-013 SUITEVISION">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="840" y="60" width="140" height="60" name="SIS-014 ADMINGEO">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="140" width="140" height="60" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="Grouping" x="20" y="240" width="1100" height="140" name="TIME: INVEST (6 SI)">
+        <style fillColor="213,232,212" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="280" width="160" height="60" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="220" y="280" width="160" height="60" name="SIS-008 FEWS">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="400" y="280" width="160" height="60" name="SIS-012 SMARTMET">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="580" y="280" width="160" height="60" name="SIS-022 SINGEI">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="760" y="280" width="160" height="60" name="SIS-023 ICAU">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="940" y="280" width="160" height="60" name="SIS-024 RNZD">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="Grouping" x="20" y="400" width="1100" height="140" name="TIME: MIGRATE (7 SI)">
+        <style fillColor="248,206,204" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="440" width="140" height="60" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="200" y="440" width="140" height="60" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="360" y="440" width="140" height="60" name="SIS-003 SNIF">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="520" y="440" width="140" height="60" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="680" y="440" width="140" height="60" name="SIS-013 SUITEVISION">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="840" y="440" width="140" height="60" name="SIS-014 ADMINGEO">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="1000" y="440" width="100" height="60" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="Grouping" x="20" y="560" width="1100" height="140" name="TIME: TOLERATE (8 SI)">
+        <style fillColor="255,242,204" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="40" y="600" width="120" height="60" name="SIS-004 IFN">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="180" y="600" width="120" height="60" name="SIS-007 POLARIS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="320" y="600" width="120" height="60" name="SIS-009 MAI">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="460" y="600" width="120" height="60" name="SIS-010 ORFEO">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="600" y="600" width="120" height="60" name="SIS-011 SIGEP">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="740" y="600" width="120" height="60" name="SIS-017 VIDHAG">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="880" y="600" width="120" height="60" name="SIS-018 SMBYC">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="Note" x="20" y="720" width="1100" height="120">
+        <text>&lt;b&gt;MODELO TIME APLICADO AL PORTAFOLIO IDEAM&lt;/b&gt;&#13;&#10;&#13;&#10;🔴 &lt;b&gt;MIGRATE (7 SI - 29%)&lt;/b&gt;: Deuda tecnológica crítica. Requieren reemplazo de Oracle 11g → 19c, JBOSS 6 → WildFly, JDK 1.8 → 17.&#13;&#10;🟢 &lt;b&gt;INVEST (6 SI - 25%)&lt;/b&gt;: Sistemas críticos misionales con alto valor estratégico. Modernizar y fortalecer.&#13;&#10;🟡 &lt;b&gt;TOLERATE (8 SI - 33%)&lt;/b&gt;: Sistemas funcionales sin necesidad inmediata de cambio. Mantener con soporte.&#13;&#10;⚫ &lt;b&gt;ELIMINATE (1 SI - 4%)&lt;/b&gt;: SIS-002 Old (RUA-Manufacturero, RESPEL) - Dar de baja en 2027.</text>
+        <style fillColor="255,255,255" lineColor="0,0,0"/>
+      </node>
+    </view>
+    <view name="V5 - Funcionalidades Transversales Duplicadas (Oportunidad de Racionalización)" documentation="Vista que muestra las funcionalidades transversales duplicadas en múltiples sistemas. Estas funcionalidades son candidatas a racionalización en la fase TO-BE mediante servicios centralizados (IAM con Keycloak, Analítica con Power BI, Visor institucional con ADMINGEO mejorado, APIs centralizadas).">
+      <node type="ApplicationFunction" x="20" y="20" width="220" height="70" name="Gestionar Usuarios/Roles/Permisos">
+        <style fillColor="255,165,0" lineColor="215,155,0"/>
+      </node>
+      <node type="ApplicationFunction" x="20" y="110" width="220" height="70" name="Generar Reportes/Sábanas">
+        <style fillColor="255,165,0" lineColor="215,155,0"/>
+      </node>
+      <node type="ApplicationFunction" x="20" y="200" width="220" height="70" name="Visualizar Info. Geográfica">
+        <style fillColor="255,165,0" lineColor="215,155,0"/>
+      </node>
+      <node type="ApplicationFunction" x="20" y="290" width="220" height="70" name="Consultar Información">
+        <style fillColor="255,165,0" lineColor="215,155,0"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="20" width="100" height="40" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="410" y="20" width="100" height="40" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="520" y="20" width="100" height="40" name="SIS-004 IFN">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="630" y="20" width="100" height="40" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="740" y="20" width="100" height="40" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="850" y="20" width="100" height="40" name="SIS-010 ORFEO">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="960" y="20" width="100" height="40" name="SIS-022 SINGEI">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="65" width="100" height="40" name="SIS-023 ICAU">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="410" y="65" width="100" height="40" name="SIS-024 RNZD">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="110" width="100" height="40" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="410" y="110" width="100" height="40" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="520" y="110" width="100" height="40" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="630" y="110" width="100" height="40" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="740" y="110" width="100" height="40" name="SIS-008 FEWS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="850" y="110" width="100" height="40" name="SIS-009 MAI">
+        <style fillColor="77,150,255" lineColor="108,142,191"/>
+      </node>
+      <node type="ApplicationComponent" x="960" y="110" width="100" height="40" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="155" width="100" height="40" name="SIS-022 SINGEI">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="410" y="155" width="100" height="40" name="SIS-024 RNZD">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="200" width="90" height="40" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="400" y="200" width="90" height="40" name="SIS-003 SNIF">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="500" y="200" width="90" height="40" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="600" y="200" width="90" height="40" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="700" y="200" width="90" height="40" name="SIS-007 POLARIS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="800" y="200" width="90" height="40" name="SIS-008 FEWS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="900" y="200" width="90" height="40" name="SIS-014 ADMINGEO">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="1000" y="200" width="90" height="40" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="245" width="90" height="40" name="SIS-016 SIIVRA">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="400" y="245" width="90" height="40" name="SIS-017 VIDHAG">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="500" y="245" width="90" height="40" name="SIS-023 ICAU">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="600" y="245" width="90" height="40" name="SIS-024 RNZD">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="290" width="80" height="40" name="SIS-001 PCB">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="390" y="290" width="80" height="40" name="SIS-002 RUA">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="480" y="290" width="80" height="40" name="SIS-003 SNIF">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="570" y="290" width="80" height="40" name="SIS-005 SIRH">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="660" y="290" width="80" height="40" name="SIS-006 DHIME">
+        <style fillColor="155,89,182" lineColor="106,66,145"/>
+      </node>
+      <node type="ApplicationComponent" x="750" y="290" width="80" height="40" name="SIS-007 POLARIS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="840" y="290" width="80" height="40" name="SIS-008 FEWS">
+        <style fillColor="255,217,61" lineColor="214,182,86"/>
+      </node>
+      <node type="ApplicationComponent" x="930" y="290" width="80" height="40" name="SIS-015 SISAIRE">
+        <style fillColor="255,107,107" lineColor="184,84,80"/>
+      </node>
+      <node type="ApplicationComponent" x="1020" y="290" width="80" height="40" name="SIS-016 SIIVRA">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="300" y="335" width="80" height="40" name="SIS-022 SINGEI">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="390" y="335" width="80" height="40" name="SIS-023 ICAU">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="ApplicationComponent" x="480" y="335" width="80" height="40" name="SIS-024 RNZD">
+        <style fillColor="107,203,119" lineColor="130,179,102"/>
+      </node>
+      <node type="Note" x="20" y="400" width="1080" height="160">
+        <text>&lt;b&gt;OPORTUNIDAD DE RACIONALIZACIÓN EN FASE TO-BE&lt;/b&gt;&#13;&#10;&#13;&#10;Las funcionalidades transversales están duplicadas en múltiples sistemas, generando:&#13;&#10;• Inconsistencia de datos y experiencia de usuario&#13;&#10;• Costos elevados de mantenimiento y evolución&#13;&#10;• Brechas de seguridad (ej. IAM distribuido)&#13;&#10;&#13;&#10;&lt;b&gt;Propuesta TO-BE según GTI-G-001:&lt;/b&gt;&#13;&#10;• &lt;b&gt;IAM&lt;/b&gt; → Keycloak 21.1 Community (Z2 Seguridad y Auditoría)&#13;&#10;• &lt;b&gt;Reportes&lt;/b&gt; → Power BI + Bodega de Datos (Z10 Analítica)&#13;&#10;• &lt;b&gt;Geovisores&lt;/b&gt; → SIS-014 ADMINGEO mejorado como componente central (Z7 Servicios de Aplicación)&#13;&#10;• &lt;b&gt;Consultas&lt;/b&gt; → API Manager + APIs REST centralizadas (Z6 Interoperabilidad)</text>
+        <style fillColor="225,213,231" lineColor="150,115,166"/>
+      </node>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis001-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis002-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis004-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis005-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis006-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis010-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis022-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis023-iam"/>
+      <connection type="Assignment" start="n5-func-iam" end="n5-sis024-iam"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis001-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis002-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis005-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis006-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis008-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis009-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis015-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis022-r"/>
+      <connection type="Assignment" start="n5-func-reportes" end="n5-sis024-r"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis002-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis003-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis005-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis006-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis007-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis008-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis014-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis015-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis016-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis017-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis023-g"/>
+      <connection type="Assignment" start="n5-func-geo" end="n5-sis024-g"/>
+    </view>
+  </folder>
+</archimate:model>
